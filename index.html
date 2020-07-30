@@ -94,24 +94,48 @@
         <p style = "margin-top: 10%" class = "bio-p">👋 <strong>Welcome to my personal site!</strong> I'm Will, a hobbyist musician and amateur web developer based in Baltimore, MD. I'm originally from Shady Side, MD and I just couldn't leave my home state. I'm going to be using this site to post updates about my music and web development projects over time. The layout of the site may change completely, who knows.</p>
         <p class = "bio-p">🎹 <strong>My musical background:</strong> I played classical piano as a kid/teenager but gave that up when I went to college, instead pursuing electronic music as my main focus. I've dabbled in hardware synths, Max/MSP, chiptunes, and more, but I'm currently focused on using modular synths coupled with Ableton to make most of my music. I've also been trying to relearn some old piano pieces from high school - maybe one day I'll be able to play a Ligeti etude? </p>
         <p class = "bio-p">🖥️ <strong>My education/career:</strong> I currently work as a self-taught junior frontend web developer for a publishing company in Baltimore. I got my B.S. in Applied Mathematics/Statistics with a second major in Mathematics from Johns Hopkins University in Spring 2018, and I'm currently spending my evenings pursuing an online M.S. in Computer Science from Towson University.</p>
-        <p><strong>Contact Info:</strong> I have all my contact info in the "Links" tab above. Peace! ☮️</p>
+        <p class = "bio-p"><strong>Contact:</strong> I have all my info in the "Links" tab above. Peace! ☮️</p>
     </div>
       <img src="resources/3dwill.png" alt="my face" class="d-none d-xs-block d-sm-block d-md-none img-fluid mx-auto">
     </div>
     <div class="row">
-        <button type="button" class="mx-auto closeme btn mt-5 btn-danger">Back to Home</button>
+        <button type="button" class="mx-auto closeme btn mt-4 btn-danger">Back to Home</button>
     </div>   
   </div>
 </div>
 
 
 
-  <div class="row linksarea mb-5">
-    <p>Links Area</p>
+<div class = "linksarea">
+  <div class = "container">
+    <div class = "row mb-3" style = "text-align:center">
+      <div class="link-section-link col-md mx-auto">
+        <a target = "_blank" href='https://github.com/willscerbo789'><img class = "img-fluid" src = "resources/githubpic.png" alt = ""/></a>
+      </div>
+      <div class="link-section-link col-md mx-auto">
+        <a target = "_blank" href='https://www.linkedin.com/in/will-scerbo-b9b921119/'><img class = "img-fluid" src = "resources/linkedinpic.png" alt = ""/></a>
+      </div>
+      <div class="link-section-link col-md mx-auto">
+        <a target = "_blank" href='mailto:will.scerbo.789@gmail.com'><img class = "img-fluid" src = "resources/emailpic.png" alt = ""/></a>
+      </div>
+      <div class="link-section-link col-md mx-auto">
+        <a target = "_blank" href='https://wrswrswrswrs.bandcamp.com'><img class = "img-fluid" src = "resources/bandcamppic.png" alt = ""/></a>
+      </div>
+      <div class="link-section-link col-md mx-auto">
+        <a target = "_blank" href='https://soundcloud.com/wrswrswrswrs'><img class = "img-fluid" src = "resources/soundcloudpic.png" alt = ""/></a>
+      </div>
+    </div>
+        <div class="row">
+        <button type="button" class="mx-auto closeme btn mt-4 btn-danger">Back to Home</button>
+    </div>   
   </div>
-  <div class="row">
-    <p id = "footer-message" class = "mx-auto" ><i>Click a link above</i></p>
+</div>
+
+
+  <div id = "footer-message" class="row">
+    <p class = "mx-auto" ><i>Click a link</i></p>
   </div>
+
 </div>
 
 
@@ -161,7 +185,7 @@
       $(".albumarea").hide();
       $(".bioarea").hide();
       $(".linksarea").css('display', 'flex');
-      $(".linksarea").addClass("bioarea-up");
+      $(".linksarea").addClass("linksarea-up");
       $('#footer-message').hide();
     });
 

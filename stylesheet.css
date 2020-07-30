@@ -40,16 +40,16 @@
         transform: translateY(20px); } }
     @media screen and (min-width: 540px) and (max-width: 720px) {
       .bioarea-up {
-        transform: translateY(-5%); } }
+        transform: translateY(20px); } }
     @media screen and (min-width: 720px) and (max-width: 960px) {
       .bioarea-up {
-        transform: translateY(-24%); } }
+        transform: translateY(-2%); } }
     @media screen and (min-width: 960px) and (max-width: 1050px) {
       .bioarea-up {
-        transform: translateY(-25%); } }
+        transform: translateY(-10%); } }
     @media screen and (min-width: 1051px) {
       .bioarea-up {
-        transform: translateY(-30%); } }
+        transform: translateY(-13%); } }
 
 .linksarea {
   display: none;
@@ -58,8 +58,22 @@
   .linksarea-up {
     -webkit-transition: -webkit-transform 0.4s;
     transition: transform 0.4s;
-    transform: translateY(-30%);
     animation: fadein 1s; }
+    @media screen and (max-width: 540px) {
+      .linksarea-up {
+        transform: translateY(20px); } }
+    @media screen and (min-width: 540px) and (max-width: 720px) {
+      .linksarea-up {
+        transform: translateY(20px); } }
+    @media screen and (min-width: 720px) and (max-width: 960px) {
+      .linksarea-up {
+        transform: translateY(-2%); } }
+    @media screen and (min-width: 960px) and (max-width: 1050px) {
+      .linksarea-up {
+        transform: translateY(-10%); } }
+    @media screen and (min-width: 1051px) {
+      .linksarea-up {
+        transform: translateY(-13%); } }
 
 .subcontainer-adjust {
   margin-bottom: -10%; }
@@ -97,6 +111,13 @@
 
 .closeme {
   max-height: 50px;
+  font-family: 'Source Code Pro', monospace;
+  font-color: black; }
+
+.link-section-link h4 {
+  font-family: 'Source Code Pro', monospace;
+  font-color: black; }
+.link-section-link a {
   font-family: 'Source Code Pro', monospace;
   font-color: black; }
 
@@ -155,7 +176,8 @@ body {
       border-radius: 20px; } }
 
 #footer-message {
-  margin-top: 1.5rem;
-  font-family: 'Source Code Pro', monospace; }
+  margin-top: 1.5rem; }
+  #footer-message p {
+    font-family: 'Source Code Pro', monospace; }
 
 /*# sourceMappingURL=stylesheet.css.map */
