@@ -16,11 +16,17 @@
         transform: translateY(20px); } }
     @media screen and (min-width: 540px) and (max-width: 720px) {
       .albumarea-up {
-        transform: translateY(20px); } }
-    @media screen and (min-width: 720px) and (max-width: 960px) {
+        transform: translateY(10px); } }
+    @media screen and (min-width: 720px) and (max-width: 767px) {
       .albumarea-up {
         transform: translateY(-2%); } }
-    @media screen and (min-width: 960px) and (max-width: 1050px) {
+    @media screen and (min-width: 768px) and (max-width: 960px) {
+      .albumarea-up {
+        transform: translateY(-6%); } }
+    @media screen and (min-width: 960px) and (max-width: 991px) {
+      .albumarea-up {
+        transform: translateY(-6%); } }
+    @media screen and (min-width: 992px) and (max-width: 1050px) {
       .albumarea-up {
         transform: translateY(-10%); } }
     @media screen and (min-width: 1051px) {
