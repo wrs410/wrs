@@ -1,0 +1,136 @@
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+.albumarea {
+  display: none;
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: transform 0.4s; }
+  .albumarea-up {
+    -webkit-transition: -webkit-transform 0.4s;
+    transition: transform 0.4s;
+    animation: fadein 1s; }
+    @media screen and (max-width: 540px) {
+      .albumarea-up {
+        transform: translateY(20px); } }
+    @media screen and (min-width: 540px) and (max-width: 720px) {
+      .albumarea-up {
+        transform: translateY(20px); } }
+    @media screen and (min-width: 720px) and (max-width: 960px) {
+      .albumarea-up {
+        transform: translateY(20px); } }
+    @media screen and (min-width: 720px) and (max-width: 960px) {
+      .albumarea-up {
+        transform: translateY(-20%); } }
+    @media screen and (min-width: 960px) and (max-width: 1050px) {
+      .albumarea-up {
+        transform: translateY(25%); } }
+    @media screen and (min-width: 1051px) {
+      .albumarea-up {
+        transform: translateY(-13%); } }
+
+.bioarea {
+  display: none;
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: transform 0.4s; }
+  .bioarea-up {
+    -webkit-transition: -webkit-transform 0.4s;
+    transition: transform 0.4s;
+    transform: translateY(-30%);
+    animation: fadein 1s; }
+
+.linksarea {
+  display: none;
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: transform 0.4s; }
+  .linksarea-up {
+    -webkit-transition: -webkit-transform 0.4s;
+    transition: transform 0.4s;
+    transform: translateY(-30%);
+    animation: fadein 1s; }
+
+.webdevinfo p {
+  font-family: 'Source Code Pro', monospace; }
+
+.card {
+  border-radius: 15px;
+  background-image: url("resources/background-tile.png"); }
+
+.card-text {
+  font-family: 'Source Code Pro', monospace; }
+
+.albumlist li a {
+  font-family: 'Source Code Pro', monospace; }
+
+.albumlist li:first-child {
+  padding-bottom: 5px;
+  list-style-image: url("resources/bandcamplogo.png"); }
+
+.albumlist li:last-child {
+  margin-top: 10px;
+  list-style-image: url("resources/spotifylogo.png"); }
+
+.albumpic {
+  border-radius: 15px; }
+
+.closeme {
+  max-height: 50px;
+  font-family: 'Source Code Pro', monospace;
+  font-color: black; }
+
+.headerimg {
+  max-width: 80%;
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  -webkit-transform: scale(1);
+  transform: scale(1); }
+  .headerimg-shrink {
+    -webkit-transition: -webkit-transform 0.4s;
+    transition: transform 0.4s;
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6) translateY(-30%); }
+
+.navlinks {
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  -webkit-transform: scale(1);
+  transform: scale(1); }
+  .navlinks-shrink {
+    -webkit-transition: -webkit-transform 0.4s;
+    transition: transform 0.4s;
+    -webkit-transform: scale(0.7) translateY(-160%);
+    transform: scale(0.7) translateY(-160%); }
+
+.col:nth-of-type(1) > .infolink {
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: transform 0.4s; }
+.col:nth-of-type(1) > .infolink-shrink {
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  transform: rotate(7.5deg); }
+.col:nth-of-type(3) > .infolink {
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: transform 0.4s; }
+.col:nth-of-type(3) > .infolink-shrink {
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  transform: rotate(-7.5deg); }
+
+@keyframes animatedBackground {
+  from {
+    background-position: 0 20%; }
+  to {
+    background-position: 100% 20%; } }
+body {
+  background-image: url("resources/bgtile2.png");
+  background-position: 0px 0px; }
+
+.maincontainer {
+  box-shadow: 2.5px 2.5px 2.5px rgba(0, 0, 0, 0.5);
+  background-image: url("resources/background-tile.png"); }
+  @media screen and (min-width: 600px) {
+    .maincontainer {
+      border-radius: 20px; } }
+
+/*# sourceMappingURL=stylesheet.css.map */
