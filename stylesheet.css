@@ -50,6 +50,9 @@
     transform: translateY(-30%);
     animation: fadein 1s; }
 
+.subcontainer-adjust {
+  margin-bottom: -10%; }
+
 .webdevinfo p {
   font-family: 'Source Code Pro', monospace; }
 

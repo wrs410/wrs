@@ -22,7 +22,7 @@
 </div>
 
   <div class="albumarea mb-5"> 
-    <div class="container">
+    <div class="container subcontainer">
       <div class="row">
           <img class = "img-fluid mb-2 mx-auto" style = "max-width: 350px"  src="resources/webdev.png" alt="">
       </div>
@@ -111,10 +111,12 @@
         $(".infolink").addClass("infolink-shrink");
         $(".headerimg").addClass("headerimg-shrink");
         $(".navlinks").addClass("navlinks-shrink");
+        $(".subcontainer").addClass("subcontainer-adjust");
       }
       $(".bioarea").hide();
       $(".linksarea").hide();
       $(".albumarea").css('display', 'flex');
+
       $(".albumarea").addClass("albumarea-up");
     });
 
@@ -136,6 +138,7 @@
         $(".headerimg").removeClass("headerimg-shrink");
         $(".navlinks").removeClass("navlinks-shrink");
       }
+      $(".subcontainer").removeClass("subcontainer-adjust");
       $(".albumarea").hide();
     })
   </script>
