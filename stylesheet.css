@@ -115,6 +115,12 @@
 .bio-p {
   font-family: 'Source Code Pro', monospace; }
 
+#topbio {
+  margin-top: 10%; }
+  @media screen and (min-width: 960px) {
+    #topbio {
+      margin-top: 7.5%; } }
+
 .closeme {
   max-height: 50px;
   font-family: 'Source Code Pro', monospace;
