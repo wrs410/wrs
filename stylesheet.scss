@@ -66,6 +66,11 @@
 	display:none;
     -webkit-transition: -webkit-transform 0.4s;
     transition: transform 0.4s;
+	
+	@media screen and (min-width: 1000px) {
+		margin-top: -6%;
+	}
+
 	&-up{
 	    -webkit-transition: -webkit-transform 0.4s;
 	    transition: transform 0.4s;
@@ -131,7 +136,7 @@
 #topbio {
 	margin-top: 10%;
 	@media screen and (min-width: 960px) {
-		margin-top: 7.5%;
+		margin-top: 5%;
 	}
 }
 
