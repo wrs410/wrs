@@ -56,7 +56,7 @@
 	    	transform: translateY(-10%);	
 		}
 		@media screen and (min-width: 1051px) {
-			transform: translateY(-13%);			
+			transform: translateY(-20%);			
 		}
 		animation: fadein 1s;
 	}
@@ -68,7 +68,7 @@
     transition: transform 0.4s;
 	
 	@media screen and (min-width: 1000px) {
-		margin-top: -6%;
+		margin-top: -7.5%;
 	}
 
 	&-up{
